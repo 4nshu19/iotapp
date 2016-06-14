@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get 'users/index' => 'users#index'
   get 'users/security' => 'users#security'
   get 'users/techsupport' => 'users#techsupport'
-  
+  fw
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
