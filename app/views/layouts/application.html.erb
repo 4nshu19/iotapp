@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Iotapp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="/external.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="/switch.css"  media="screen,projection"/>
+  
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+
+<!--Import jQuery before materialize.js-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="/assets/materialize.min.js"></script>
+
+</html>

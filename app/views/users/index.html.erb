@@ -1,0 +1,107 @@
+
+<!-- Nav Bar and Slider code begins -->
+<nav class = "black ">
+  <ul class="right hide-on-med-and-down">
+    <!-- <a href="#" class="brand-logo center">IOT App</a> -->
+    <img src="/assets/logo2small.png" class="brand-logo center"></img>
+    <!--<li><a href="#!">Second Sidebar Link</a></li> -->
+  </ul>
+  <ul id="slide-out" class="side-nav linepadding">
+    <li> <%= link_to "Home Automation" , root_path %>  </li>
+    <hr width =80%>
+    <li> <%= link_to "Security", users_security_path %>  </li>
+    <li > <div class="techsupport" ><hr width =80%> <div class="orange "> <%= link_to "Tech Support", users_techsupport_path %></div> </div> </li>
+    
+    
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons iconpadding">menu</i></a>
+</nav>
+<!-- slider code ends here -->
+<!-- Rooms lights and fans part begins here -->  
+  
+  <div class = "container "> 
+        <h4 class ="center thin" > Room 1 </h4> 
+        <div class="collection">
+          <a href="#!" class="collection-item">Light
+                  <span class="badge">     
+                      <!-- Switch -->
+                      <div class="switch">
+                        <label>
+                          Off
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                          On
+                        </label>
+                      </div>
+                  </span> 
+          </a>
+          <a href="#!" class="collection-item">Fan
+                  <span class="badge">     
+                      <!-- Switch -->
+                      <div class="switch">
+                        <label>
+                          Off
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                          On
+                        </label>
+                      </div>
+                  </span> 
+          </a>
+        </div>
+
+        <h4 class ="center thin"> Room 2 </h4> 
+        <div class="collection">
+          <a href="#!" class="collection-item">Light
+                  <span class="badge">     
+                      <!-- Switch -->
+                      <div class="switch">
+                        <label>
+                          Off
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                          On
+                        </label>
+                      </div>
+                  </span> 
+          </a>
+          <a href="#!" class="collection-item">Fan
+                  <span class="badge">     
+                      <!-- Switch -->
+                      <div class="switch">
+                        <label>
+                          Off
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                          On
+                        </label>
+                      </div>
+                  </span> 
+          </a>
+        </div>
+        
+        <h4 class ="center thin"> Front Yard </h4> 
+        <div class="collection">
+          <a href="#!" class="collection-item">Sprinkler
+                  <span class="badge">     
+                      <!-- Switch -->
+                      <div class="switch">
+                        <label>
+                          Off
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                          On
+                        </label>
+                      </div>
+                  </span> 
+          </a>
+          
+        </div>
+  
+  </div>
+<!-- Room lights and fans code ends here -->
+<script>
+ $(document).ready(function(){
+  $(".button-collapse").sideNav();
+  });
+</script>

@@ -1,0 +1,42 @@
+
+<!-- Nav Bar and Slider code begins -->
+<nav class = "black ">
+  <ul class="right hide-on-med-and-down">
+    <a href="#" class="brand-logo center">IOT App</a>
+    <!--<li><a href="#!">Second Sidebar Link</a></li> -->
+  </ul>
+  <ul id="slide-out" class="side-nav linepadding">
+    <li> <%= link_to "Home Automation" , root_path %>  </li>
+    <hr width =80%>
+    <li> <%= link_to "Security", users_security_path %>  </li>
+    <li > <div class="techsupport" ><hr width =80%> <div class="orange "> <%= link_to "Tech Support", users_techsupport_path %></div> </div> </li>
+    
+    
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons iconpadding">menu</i></a>
+</nav>
+
+<div class = "container "> 
+        <h4 class ="center thin" > Home </h4> 
+
+<div class="collection">
+          <a href="#!" class="collection-item">Status
+                  <span class="badge">     
+                      <!-- Switch -->
+                      <div class="switch">
+                        <label>
+                          Unlock
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                          Lock
+                        </label>
+                      </div>
+                  </span> 
+          </a>
+</div>
+
+<script>
+ $(document).ready(function(){
+  $(".button-collapse").sideNav();
+  });
+</script>
