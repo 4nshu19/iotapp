@@ -1,27 +1,20 @@
-== README
+== DAPIOT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Home Automation app to control your home appliances remotely
+and add a security level to yout home.
 
-Things you may want to cover:
+Things we cover
 
-* Ruby version
+* Control lights , fans and other appliances
 
-* System dependencies
+* Voice Recognition to control via voice (not working currently)
 
-* Configuration
+* Buzzer feature to check on trespassing 
 
-* Database creation
+* Camera module  
 
-* Database initialization
+* Database of users
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
